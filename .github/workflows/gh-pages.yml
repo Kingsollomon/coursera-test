@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages 🚀
 on:
   push:
     branches:
-      - gh-pages  # Trigger deployment when pushing to 'main'
+      - main  # Trigger deployment when pushing to 'main'
 
 permissions:
   contents: read
