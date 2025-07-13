@@ -31,3 +31,6 @@ jobs:
         id: deployment
         with:
           artifact_name: github-pages
+        environment:
+          name: github-pages
+
