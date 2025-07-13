@@ -1,0 +1,18 @@
+{
+  "siteName": "King Sollomon's Corner",
+  "owner": "Kingsollomon",
+  "repo": "coursera-test",
+  "theme": {
+    "background": "linear-gradient(to right, #1e3c72, #2a5298)",
+    "textColor": "white",
+    "font": "Segoe UI"
+  },
+  "links": {
+    "github": "https://github.com/kingsollomon/coursera-test",
+    "homepage": "https://kingsollomon.github.io/coursera-test/"
+  },
+  "features": {
+    "showFooter": true,
+    "showRepoButton": true
+  }
+}
