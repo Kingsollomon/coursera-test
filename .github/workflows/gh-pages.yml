@@ -13,6 +13,7 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: github-pages  # ✅ Correct placement
 
     steps:
       - name: ⏬ Checkout Repository
@@ -24,11 +25,10 @@ jobs:
       - name: 📦 Upload HTML Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./  # Includes everything in your repo, including /site
+          path: ./  # Includes everything in your repo
 
       - name: 🚀 Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
         id: deployment
         with:
           artifact_name: github-pages
-        environment: github-pages
