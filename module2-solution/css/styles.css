@@ -15,49 +15,67 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.8em;           /* 75% larger than base (16px × 1.75) */
   margin-bottom: 1.5rem;
   text-align: center;
 }
 
+/* Section layout */
 .section {
   position: relative;
   border: 1px solid #000;
-  padding: 1rem;
+  padding: 3rem 1rem 1rem 1rem; /* top padding to avoid overlapping title */
   float: left;
+  margin: 1%;
 }
 
+/* Section title positioning */
 .section-title {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
-  background-color: #ccc;
+  background-color: #444;
+  color: #fff;
   border: 1px solid #000;
   padding: 0.5rem;
-  font-size: 1.25em;
+  font-size: 1.25em;         /* 25% larger */
 }
 
-/* Background colors for each section */
-.chicken { background-color: #ffe0e0; }
-.beef    { background-color: #e0ffe0; }
-.sushi   { background-color: #e0e0ff; }
+/* Unique background colors */
+.chicken {
+  background-color: #ffe0e0;
+}
+.beef {
+  background-color: #e0ffe0;
+}
+.sushi {
+  background-color: #e0e0ff;
+}
 
+/* Desktop View */
+@media (min-width: 992px) {
+  .section {
+    width: 30.33%;
+  }
+}
+
+/* Tablet View */
 @media (min-width: 768px) and (max-width: 991px) {
   .section {
     width: 48%;
-    margin: 1%;
   }
+
   .section:nth-of-type(3) {
     width: 98%;
     clear: both;
   }
 }
 
+/* Mobile View */
 @media (max-width: 767px) {
   .section {
     width: 98%;
-    margin: 1%;
-    clear: both;
     float: none;
+    clear: both;
   }
 }
