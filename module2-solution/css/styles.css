@@ -1,0 +1,63 @@
+/* Reset and box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base typography */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.section {
+  position: relative;
+  border: 1px solid #000;
+  padding: 1rem;
+  float: left;
+}
+
+.section-title {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: #ccc;
+  border: 1px solid #000;
+  padding: 0.5rem;
+  font-size: 1.25em;
+}
+
+/* Background colors for each section */
+.chicken { background-color: #ffe0e0; }
+.beef    { background-color: #e0ffe0; }
+.sushi   { background-color: #e0e0ff; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section {
+    width: 48%;
+    margin: 1%;
+  }
+  .section:nth-of-type(3) {
+    width: 98%;
+    clear: both;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    width: 98%;
+    margin: 1%;
+    clear: both;
+    float: none;
+  }
+}
