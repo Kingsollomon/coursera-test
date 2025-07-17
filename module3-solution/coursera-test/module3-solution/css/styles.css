@@ -1,0 +1,13 @@
+.section {
+  height: 1000px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.navbar-collapse {
+  background-color: #eeeeee; /* distinguish dropdown menu */
+}
+
+.navbar-nav > li > a {
+  color: #333;
+}
