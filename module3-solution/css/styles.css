@@ -1,16 +1,12 @@
-/* Tall, scrollable section */
+/* background for mobile dropdown (only shows in xs) */
+.navbar-collapse {
+  background-color: #f8f8f8;
+}
+
+/* Tall section: 1000px high, forces page scroll */
 .section {
   height: 1000px;
-  background-color: #f9f9f9;
-  padding: 20px;
+  background-color: #e9ecef;
+  margin-top: 20px;
 }
-
-/* Full-width mobile dropdown background */
-.navbar-default .navbar-collapse {
-  background-color: #eeeeee;
-}
-
-/* Mobile dropdown link color */
-.navbar-nav > li > a {
-  color: #333;
-}
+```
