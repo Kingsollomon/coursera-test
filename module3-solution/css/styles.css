@@ -1,13 +1,23 @@
+/* Tall, scrollable section */
 .section {
   height: 1000px;
   background-color: #f9f9f9;
   padding: 20px;
 }
 
-.navbar-collapse {
-  background-color: #eeeeee; /* distinguish dropdown menu */
+/* Mobile dropdown background */
+.navbar-default .navbar-collapse {
+  background-color: #eeeeee;
 }
 
-.navbar-nav > li > a {
-  color: #333;
+/* Menu Items */
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  margin-top: 0;
+  font-weight: bold;
 }
