@@ -1,23 +1,16 @@
-/* Tall, scrollable section */
+/* Tall scrollable section */
 .section {
   height: 1000px;
   background-color: #f9f9f9;
   padding: 20px;
 }
 
-/* Mobile dropdown background */
+/* Full-width mobile dropdown bg */
 .navbar-default .navbar-collapse {
   background-color: #eeeeee;
 }
 
-/* Menu Items */
-.menu-item img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.menu-item h3 {
-  margin-top: 0;
-  font-weight: bold;
+/* Link color override */
+.navbar-nav > li > a {
+  color: #333;
 }

@@ -4,84 +4,66 @@
   <meta charset="UTF-8">
   <title>Food, LLC</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Bootstrap CSS -->
+
+  <!-- Bootstrap core CSS -->
   <link
     rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
   >
-  <!-- Custom Styles -->
+  <!-- Your custom styles -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <!-- Navbar -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
+
       <div class="navbar-header">
+        <!-- only visible on xs -->
         <button
           type="button"
           class="navbar-toggle collapsed visible-xs"
           data-toggle="collapse"
           data-target="#mobileMenu"
+          aria-expanded="false"
         >
+          <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+
+        <!-- brand on the left -->
         <a class="navbar-brand" href="#">Food, LLC</a>
       </div>
-      <div class="collapse navbar-collapse" id="mobileMenu">
-        <ul class="nav navbar-nav visible-xs">
+
+      <!-- collapse panel only on xs -->
+      <div class="collapse navbar-collapse visible-xs" id="mobileMenu">
+        <ul class="nav navbar-nav text-center">
           <li><a href="#">Chicken</a></li>
           <li><a href="#">Beef</a></li>
           <li><a href="#">Sushi</a></li>
         </ul>
       </div>
+
     </div>
   </nav>
 
-  <!-- Page Heading -->
   <div class="container text-center">
     <h1>Our Menu</h1>
   </div>
 
-  <!-- Image Gallery -->
-  <div class="container">
-    <div class="row menu-items">
-      <div class="col-xs-12 col-sm-4">
-        <div class="menu-item text-center">
-          <img src="img/chicken.jpg" alt="Chicken" class="img-responsive center-block">
-          <h3>Chicken</h3>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-        <div class="menu-item text-center">
-          <img src="img/beef.jpg" alt="Beef" class="img-responsive center-block">
-          <h3>Beef</h3>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-4">
-        <div class="menu-item text-center">
-          <img src="img/sushi.jpg" alt="Sushi" class="img-responsive center-block">
-          <h3>Sushi</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Tall Section -->
   <div class="container-fluid section">
     <div class="row">
       <div class="col-xs-12">
         <p>
-          This is a really tall section to force scrolling. You can fill this with
-          text, images, or just rely on the set height in CSS.
+          This section is 1000px tall so you must scroll to see the bottom.
         </p>
       </div>
     </div>
   </div>
 
-  <!-- jQuery & Bootstrap JS -->
+  <!-- jQuery then Bootstrap JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script
     src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
