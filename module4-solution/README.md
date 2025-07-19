@@ -29,3 +29,20 @@ A simple browser app that displays “Hello” or “Good Bye” greetings for a
 git clone https://github.com/Kingsollomon/coursera-test.git
 cd coursera-test/module4-solution
 npm install
+
+Usage
+
+npx browser-sync start --server --files "*.*"
+Open your browser to http://localhost:3000/index.html
+
+Click any name button to display its greeting
+
+Click Clear Greetings to remove all messages
+
+Running Tests
+Browser Runner
+Start the dev server as above.
+
+Open http://localhost:3000/SpecRunner.html
+
+Ensure the green banner: “All specs have passed.”
