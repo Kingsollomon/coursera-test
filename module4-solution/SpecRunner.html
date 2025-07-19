@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SpecRunner</title>
+  <link rel="stylesheet"
+    href="https://unpkg.com/jasmine-core@4.0.1/lib/jasmine-core/jasmine.css">
+</head>
+<body>
+  <!-- DOM fixtures your script.js expects -->
+  <section id="hello-section" style="display:none">
+    <div id="buttons-hello-container"></div>
+  </section>
+
+  <section id="bye-section" style="display:none">
+    <div id="buttons-bye-container"></div>
+  </section>
+
+  <button id="clear-btn" style="display:none">Clear</button>
+
+  <div id="greetings-container" style="display:none"></div>
+
+  <!-- Jasmine core -->
+  <script src="https://unpkg.com/jasmine-core@4.0.1/lib/jasmine-core/jasmine.js"></script>
+  <script src="https://unpkg.com/jasmine-core@4.0.1/lib/jasmine-core/jasmine-html.js"></script>
+  <script src="https://unpkg.com/jasmine-core@4.0.1/lib/jasmine-core/boot0.js"></script>
+  <script src="https://unpkg.com/jasmine-core@4.0.1/lib/jasmine-core/boot1.js"></script>
+
+  <!-- Your sources -->
+  <script src="SpeakHello.js"></script>
+  <script src="SpeakGoodBye.js"></script>
+  <script src="script.js"></script>
+
+  <!-- Specs -->
+  <script src="spec/SpeakHelloSpec.js"></script>
+  <script src="spec/scriptSpec.js"></script>
+</body>
+</html>
