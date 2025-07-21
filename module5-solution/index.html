@@ -2,25 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Restaurant App – Module 5</title>
+  <title>My Restaurant – Module 5</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- CSS -->
+  <!-- CSS Files -->
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <link href="css/styles.css" rel="stylesheet" />
 
-  <!-- Favicon (silence 404) -->
+  <!-- Favicon -->
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 </head>
 <body>
 
-  <!-- NAVBAR -->
+  <!-- Navigation Bar -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#" onclick="$dc.loadHome();">
-          My Restaurant
-        </a>
+        <a class="navbar-brand" href="#" onclick="$dc.loadHome();">My Restaurant</a>
       </div>
       <ul class="nav navbar-nav navbar-right">
         <li id="nav-categories">
@@ -36,10 +34,10 @@
     </div>
   </nav>
 
-  <!-- Main content injection point -->
+  <!-- Dynamic Content Goes Here -->
   <div class="container" id="main-content"></div>
 
-  <!-- JavaScript: ajax-utils first, then our script -->
+  <!-- JavaScript (ajax-utils first, then main script) -->
   <script src="js/ajax-utils.js"></script>
   <script src="js/script.js"></script>
 </body>
