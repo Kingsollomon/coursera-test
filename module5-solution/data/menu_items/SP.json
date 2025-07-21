@@ -1,0 +1,23 @@
+{
+  "category": {
+    "short_name": "SP",
+    "name": "Chef Specials",
+    "special_instructions": "Ask your server for today’s recommendation"
+  },
+  "menu_items": [
+    {
+      "short_name": "SP1",
+      "name": "Truffle Mac & Cheese",
+      "description": "Creamy mac with black truffle shavings",
+      "price_small": 8.95,
+      "price_large": 12.95
+    },
+    {
+      "short_name": "SP2",
+      "name": "Seared Scallops",
+      "description": "Pan-seared scallops with lemon-butter sauce",
+      "price_small": 12.95,
+      "price_large": 18.95
+    }
+  ]
+}
