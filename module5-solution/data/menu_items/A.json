@@ -1,0 +1,23 @@
+{
+  "category": {
+    "short_name": "A",
+    "name": "Soup of the Day",
+    "special_instructions": ""
+  },
+  "menu_items": [
+    {
+      "short_name": "A1",
+      "name": "Tomato Basil Soup",
+      "description": "Rich tomato soup with fresh basil",
+      "price_small": 4.95,
+      "price_large": 6.95
+    },
+    {
+      "short_name": "A2",
+      "name": "Miso Soup",
+      "description": "Traditional Japanese soup with tofu and seaweed",
+      "price_small": 3.95,
+      "price_large": 5.95
+    }
+  ]
+}
