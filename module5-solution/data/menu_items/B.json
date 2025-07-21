@@ -1,0 +1,23 @@
+{
+  "category": {
+    "short_name": "B",
+    "name": "Breakfast Sampler",
+    "special_instructions": ""
+  },
+  "menu_items": [
+    {
+      "short_name": "B1",
+      "name": "Pancake Stack",
+      "description": "Fluffy pancakes served with syrup and butter",
+      "price_small": 5.95,
+      "price_large": 7.95
+    },
+    {
+      "short_name": "B2",
+      "name": "Three-Egg Omelette",
+      "description": "Omelette with cheese, ham, and peppers",
+      "price_small": 6.95,
+      "price_large": 8.95
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "category": {
+    "short_name": "C",
+    "name": "Lunch Combo",
+    "special_instructions": ""
+  },
+  "menu_items": [
+    {
+      "short_name": "C1",
+      "name": "Grilled Chicken Sandwich",
+      "description": "Chicken sandwich with lettuce, tomato, and mayo",
+      "price_small": 6.95,
+      "price_large": 9.95
+    },
+    {
+      "short_name": "C2",
+      "name": "Caesar Salad",
+      "description": "Crisp romaine with Caesar dressing and croutons",
+      "price_small": 5.95,
+      "price_large": 8.95
+    }
+  ]
+}

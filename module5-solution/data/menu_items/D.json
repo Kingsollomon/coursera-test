@@ -1,0 +1,23 @@
+{
+  "category": {
+    "short_name": "D",
+    "name": "Dinner Feast",
+    "special_instructions": ""
+  },
+  "menu_items": [
+    {
+      "short_name": "D1",
+      "name": "Steak Frites",
+      "description": "Grilled steak served with French fries",
+      "price_small": 14.95,
+      "price_large": 18.95
+    },
+    {
+      "short_name": "D2",
+      "name": "Pasta Carbonara",
+      "description": "Pasta in a creamy pancetta and Parmesan sauce",
+      "price_small": 12.95,
+      "price_large": 16.95
+    }
+  ]
+}
